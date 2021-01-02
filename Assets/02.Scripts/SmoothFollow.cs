@@ -13,11 +13,13 @@ public class SmoothFollow : MonoBehaviour
     [SerializeField]
     private float height = 5.0f;
 
-    [SerializeField]
-    private float rotationDamping;
+    // private float yCamPos = 3.0f;
 
     [SerializeField]
-    private float heightDamping;
+    private float rotationDamping = 0.0f;
+
+    [SerializeField]
+    private float heightDamping = 0.0f;
 
     // Start is called before the first frame update
     void Start()
