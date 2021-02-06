@@ -7,8 +7,8 @@ using UnityEngine;
 
 public class VectorMagnitude : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+   private void Start()    // Start is called before the first frame update
     {
         float vec1 = Vector3.Magnitude(Vector3.forward);
         float vec2 = Vector3.Magnitude(Vector3.forward + Vector3.right);
